@@ -31,12 +31,23 @@ public class FindTheCat {
 
     public static int findTheCat2(Animal... animals){
         int counter = 0;
-        while (animals[1].position < animals[0].position) { // TODO
+        while (animals[1].position < animals[0].position) { 
             animals[1].walking();
             animals[0].walking();
             FindTheCat.printMap(animals[0], animals[1]);
             counter += 1; // counter = counter + 1;
         }
+
+        return counter;
+    }  
+
+    public static int findTheCat3(Animal... animals){
+        int counter;
+        for (counter = 0 ; animals[1].position < animals[0].position; counter+= 1) {
+            animals[1].walking();
+            animals[0].walking();
+            FindTheCat.printMap(animals[0], animals[1]);
+        } 
 
         return counter;
     }
@@ -46,6 +57,7 @@ public class FindTheCat {
         cat.setGreeting("miaw");
         Dog dog = new Dog(45, 4, 0);
         dog.setGreeting("ghow");
-        System.out.println(FindTheCat.findTheCat2(cat, dog));
+
+        System.out.println(FindTheCat.findTheCat3(cat, dog));
     }
 }
