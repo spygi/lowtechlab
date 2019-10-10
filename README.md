@@ -36,6 +36,7 @@ We used Java 8, Python 3.7 in VSCode.
   + Program to read Greek
 + Find documentation: TODO
 + Using Git to save/share code: TODO
+  + git clone >give the repository url address andthan enter
 + Use code from others/packages: TODO
 
 
