@@ -28,11 +28,11 @@ dictionary = {
     'Λ': 'L',
     'Ε': 'E', # Le
     'Σ': 'S', # Les
-    'β': 'v',
-    'ο': 'o',
-    'ς': 's',
-    'λ': 'l',
-    ' ': ' '
+    'Β': 'V',
+    'Ο': 'O',
+    ' ': ' ',
+    ',': ',',
+    '.': '.'
 }
 def pronounce(greekWord):
     latinLetters = ''
@@ -43,7 +43,7 @@ def pronounce(greekWord):
     
     return latinLetters
 
-print(pronounce('λες Λες')) # Λες, ΛEς
+print(pronounce('λεσβος Λες')) 
 
 # Have more letters, punctuation TODO
 # Case sensitive? OK
