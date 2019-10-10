@@ -37,9 +37,10 @@ We used Java 8, Python 3.7 in VSCode.
 + Find documentation: TODO
 + Using Git to save/share code
   + git clone >give the repository url address and then enter
+  whensome one send a code at first 
+  + git pull --rebase origin master
+  + save, commit and push
 + Use code from others/packages: TODO
-
-Another change
 
 
 ### Next steps
@@ -47,7 +48,3 @@ Another change
 + Youtube for tutorials.
 + Online universities: [Coursera](coursera.org), [EdX](edx.org), [Udacity](udacity.com).
 + Other sites: [Freecodecamp](https://www.freecodecamp.org/), [Geeksforgeeks](www.geeksforgeeks.org/)
-
-
-+ Read aloud
-+ Google translate
