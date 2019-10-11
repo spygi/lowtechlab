@@ -10,6 +10,7 @@ We learned the basics of Java and Python.
   + Boolean: true/True, false/False
   + Numbers: int, float
   + Strings: ""/''
+    + Basic functions: find, join, replace, upper etc.
 + Complex types
   + Arrays/list
   + Map/dictionary/object
@@ -34,7 +35,7 @@ We used Java 8, Python 3.7 in VSCode.
 + Problems
   + Program to find when a fast dog/car would catch a slower cat/bicycle.
   + Program to read Greek
-+ Find documentation: TODO
++ Find documentation(Python)
 + Using Git to save/share code
   + git clone >give the repository url address and then enter
   whensome one send a code at first 
@@ -44,7 +45,7 @@ We used Java 8, Python 3.7 in VSCode.
 
 
 ### Next steps
-+ Google/Stackoverflow to answer programming questions.
++ Google/[Stackoverflow](stackoverflow.com) to answer programming questions.
 + Youtube for tutorials.
 + Online universities: [Coursera](coursera.org), [EdX](edx.org), [Udacity](udacity.com).
 + Other sites: [Freecodecamp](https://www.freecodecamp.org/), [Geeksforgeeks](www.geeksforgeeks.org/)
