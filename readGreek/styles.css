@@ -1,0 +1,29 @@
+h1 {
+  color: red;
+}
+
+body {
+  display: flex;
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+#greek {
+  resize: none;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+#convert {
+  width: 30px;
+  text-align: center;
+  line-height: 2;
+}
+
+#farsi {
+  border: 1px solid darkolivegreen;
+  flex-grow: 1;
+}
