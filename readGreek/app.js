@@ -89,19 +89,19 @@
         const result = res.join('');
         document.getElementById('farsi').textContent = result;
 
-        if (!result) {
+        if (!result.trim()) {
             alert('Is this Greek?');
         }
     }
-
-    console.log(1);
-    document.getElementById('convert').addEventListener('click', function (e) {
-        convert();
-    });
 
     document.getElementById('greek').addEventListener('keyup', function (e) {
         if (e.keyCode === 13) {
             convert();
         }
     });
+
+    document.getElementById('convert').addEventListener('click', function (e) {
+        convert();
+    });
+
 }();
